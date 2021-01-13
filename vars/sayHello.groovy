@@ -1,16 +1,18 @@
 #!/usr/bin/env groovy
 import com.cleverbuilder.SampleClass
 import groovy.json.*
+
 def call(String name = 'human') {
-  def jdata = JsonOutput.toJson(this)
-  echo jdata
 
-  echo "Hello, ${name}."
+    timeout(activity: false, time: 1, unit: 'HOURS') {
 
-  def cc = new SampleClass()
+        echo "Hello, ${name}."
 
-  echo cc.myPrint(this)
+        def cc = new SampleClass()
 
-  echo "end ..."
+        echo cc.myPrint(this)
+
+        echo "end ..."
+    }
 }
 

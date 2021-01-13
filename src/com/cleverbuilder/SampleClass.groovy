@@ -12,6 +12,8 @@ class SampleClass {
     }
 
     String myPrint(mt) {
+        mt.print "myPrint !!!"
+
         def jdata = JsonOutput.toJson(mt)
         return jdata
     }
