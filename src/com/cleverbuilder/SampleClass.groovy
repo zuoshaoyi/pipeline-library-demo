@@ -11,10 +11,8 @@ class SampleClass {
         this.age += years
     }
 
-    def myPrint(mt) {
+    String myPrint(mt) {
         def jdata = JsonOutput.toJson(mt)
-        println "myPrint 开始"
-        println jdata
-        println "myPrint 结束"
+        return jdata
     }
 }

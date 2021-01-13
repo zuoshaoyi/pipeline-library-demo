@@ -7,10 +7,9 @@ def call(String name = 'human') {
 
   echo "Hello, ${name}."
 
-
   def cc = new SampleClass()
 
-  cc.myPrint(this)
+  echo cc.myPrint(this)
 
   echo "end ..."
 }
