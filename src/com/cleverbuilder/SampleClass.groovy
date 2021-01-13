@@ -13,8 +13,8 @@ class SampleClass {
 
     def myPrint(mt) {
         def jdata = JsonOutput.toJson(mt)
-        println "myPrint 开始"
-        println jdata
-        println "myPrint 结束"
+        echo "myPrint 开始"
+        echo jdata
+        echo "myPrint 结束"
     }
 }
