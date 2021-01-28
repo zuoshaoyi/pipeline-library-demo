@@ -6,7 +6,7 @@ public class JavaClass {
         System.out.println("Java 输出");
 
         int res = 0;
-        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        for (int i = 0; i < 10; i++) {
             res += i;
         }
         System.out.println(res);
