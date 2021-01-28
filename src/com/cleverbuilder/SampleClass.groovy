@@ -12,7 +12,8 @@ class SampleClass {
     }
 
     def myPrint() {
-        sh "echo jenkins myPrint !!!"
+        def res = "echo jenkins myPrint !!!".execute()
+        println res.text
 
         println "groovy print !!! "
 
