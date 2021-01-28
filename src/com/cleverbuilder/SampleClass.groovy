@@ -12,7 +12,7 @@ class SampleClass {
     }
 
     String myPrint() {
-        echo "jenkins myPrint !!!"
+        sh "echo jenkins myPrint !!!"
 
         println "groovy print !!! "
 
