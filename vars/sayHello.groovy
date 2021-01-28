@@ -13,7 +13,8 @@ def call(String name = 'human') {
 //
 //        echo cc.myPrint(this)
 
-        JavaClass.javaPrint()
+        JavaClass cc = new JavaClass()
+        cc.javaPrint()
 
         echo "end ..."
     }
