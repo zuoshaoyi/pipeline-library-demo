@@ -11,7 +11,7 @@ class SampleClass {
         this.age += years
     }
 
-    String myPrint(mt) {
+    String myPrint() {
         echo "jenkins myPrint !!!"
 
         println "groovy print !!! "
