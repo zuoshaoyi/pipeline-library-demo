@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+#!/usr/bin/groovy
 import com.cleverbuilder.JavaClass
 import com.cleverbuilder.SampleClass
 import groovy.json.*

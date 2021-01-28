@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+#!/usr/bin/groovy
 package com.cleverbuilder
 
 import groovy.json.*
@@ -11,7 +11,7 @@ class SampleClass {
         this.age += years
     }
 
-    String myPrint() {
+    def myPrint() {
         sh "echo jenkins myPrint !!!"
 
         println "groovy print !!! "
