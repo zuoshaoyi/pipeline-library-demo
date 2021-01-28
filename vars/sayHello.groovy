@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 import com.cleverbuilder.JavaClass
+import com.cleverbuilder.SampleClass
 import groovy.json.*
 
 def call(String name = 'human') {
@@ -8,12 +9,12 @@ def call(String name = 'human') {
 
         echo "Hello, ${name}."
 
-//        def cc = new SampleClass()
+        def cc = new SampleClass()
 //
-//        echo cc.myPrint(this)
+        echo cc.myPrint()
 
-        def cc = new JavaClass()
-        cc.javaPrint()
+        def ja = new JavaClass()
+        ja.javaPrint()
 
         echo "end ..."
     }

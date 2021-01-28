@@ -12,9 +12,11 @@ class SampleClass {
     }
 
     String myPrint(mt) {
-        mt.print "myPrint !!!"
+        echo "jenkins myPrint !!!"
 
-        def jdata = JsonOutput.toJson(mt)
-        return jdata
+        println "groovy print !!! "
+
+//        def jdata = JsonOutput.toJson(mt)
+//        return jdata
     }
 }
