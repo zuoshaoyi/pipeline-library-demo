@@ -21,13 +21,9 @@ class SampleClass {
 
         mt.print "jenkins envs print 。。。"
 
-        def envs = mt.env
+        mt.print mt.env
 
-//        def json = JsonOutput.toJson(envs)
-
-        mt.print envs.getClass()
-
-        def envImpl = (EnvActionImpl)envs
+        def envImpl = (EnvActionImpl)mt.env
         def environment = envImpl.getOverriddenEnvironment()
 
         println(environment)
