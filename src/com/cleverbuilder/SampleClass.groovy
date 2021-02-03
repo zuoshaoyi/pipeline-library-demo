@@ -11,11 +11,19 @@ class SampleClass {
         this.age += years
     }
 
-    def myPrint() {
+    def myPrint(mt) {
         def res = "echo jenkins myPrint !!!".execute()
         println res.text
 
         println "groovy print !!! "
+
+        mt.print "jenkins envs print 。。。"
+
+        def envs = mt.env
+
+        def json = JsonOutput.toJson(envs)
+
+        mt.print json
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
