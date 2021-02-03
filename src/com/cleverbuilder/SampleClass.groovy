@@ -23,19 +23,13 @@ class SampleClass {
 
         mt.print mt.env
 
-        def envImpl = (EnvActionImpl)mt.env
-        def environment = envImpl.getOverriddenEnvironment()
+        def envImpl = (EnvActionImpl) mt.env
 
-        println(environment.get("Zuo"))
+        mt.print mt.env.Zuo.getClass()
 
-        println(new Gson().toJson(environment))
+        mt.print envImpl.getProperty("Zuo")
 
-        mt.print JsonOutput.toJson(environment)
-
-        mt.print mt.env.Zuo
-
-        mt.print new Gson().toJson(mt.env)
-
+        mt.env.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
