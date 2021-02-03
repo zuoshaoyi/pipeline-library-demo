@@ -36,6 +36,8 @@ class SampleClass {
 
         mt.print JsonOutput.toJson(environment)
 
+        mt.print mt.env.Zuo
+
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
     }
