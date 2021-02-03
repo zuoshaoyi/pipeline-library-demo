@@ -29,7 +29,17 @@ class SampleClass {
 
         mt.print envImpl.getProperty("Zuo")
 
-        envImpl.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
+        Map<String, String> envMap = new HashMap<>();
+
+        envImpl.getEnvironment().each {
+            name, value ->
+                {
+                    println "Name: $name -> Value $value"
+                    envMap.put(name,value)
+                }
+        }
+
+        mt.print new Gson().toJson(envMap)
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
