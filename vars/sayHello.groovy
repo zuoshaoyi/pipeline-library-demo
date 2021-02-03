@@ -1,7 +1,5 @@
 #!/usr/bin/groovy
-import com.cleverbuilder.SampleClass
-import com.zuo.test.*
-import groovy.json.*
+import com.cleverbuilder.*
 
 def call(String name = 'human') {
 
@@ -13,7 +11,7 @@ def call(String name = 'human') {
 //
         cc.myPrint(this)
 
-        def ja = new com.cleverbuilder.JavaClass()
+        def ja = new JavaClass()
         ja.javaPrint()
 
 //        def test = new JavaTest()
