@@ -6,7 +6,6 @@
     <groupId>com.zuo.jenkins</groupId>
     <artifactId>pipeline-library-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <name>pipeline-library-demo</name>
     <description>pipeline-library-demo</description>
@@ -56,6 +55,11 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.zuo.jenkins</groupId>
+            <artifactId>sub</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
 
     </dependencies>

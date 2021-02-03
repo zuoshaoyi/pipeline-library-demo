@@ -1,5 +1,6 @@
 #!/usr/bin/groovy
 import com.cleverbuilder.SampleClass
+import com.zuo.test.JavaTest
 import groovy.json.*
 
 def call(String name = 'human') {
@@ -12,8 +13,12 @@ def call(String name = 'human') {
 //
         cc.myPrint(this)
 
-        def ja = new com.cleverbuilder.JavaClass()
-        ja.javaPrint()
+//        def ja = new com.cleverbuilder.JavaClass()
+//        ja.javaPrint()
+
+        def test = new JavaTest()
+        test.javaPrint()
+
 
         echo "end ..."
     }
