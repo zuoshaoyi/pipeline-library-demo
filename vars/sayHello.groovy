@@ -11,7 +11,7 @@ def call(String name = 'human') {
 
         def cc = new SampleClass()
 //
-        echo cc.myPrint(this)
+        cc.myPrint(this)
 
         def ja = new JavaClass()
         ja.javaPrint()
