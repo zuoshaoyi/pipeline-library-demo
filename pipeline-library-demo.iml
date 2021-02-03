@@ -52,22 +52,22 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.beust:jcommander:1.78" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:3.0.6" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-cps:2.41" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-step-api:2.13" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-api:2.18" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-support:2.14" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.4.9.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling:1.4.9.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-scm-step:2.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins:script-security:1.34" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.kohsuke:groovy-sandbox:1.15" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins:scm-api:2.0.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins:structs:1.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci:symbol-annotation:1.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci:annotation-indexer:1.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.cloudbees:groovy-cps:1.20" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.ui:jquery-detached:1.2.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.ui:ace-editor:1.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.cloudbees:diff4j:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins.workflow:workflow-cps:2.41" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins.workflow:workflow-step-api:2.13" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins.workflow:workflow-api:2.18" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins.workflow:workflow-support:2.14" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.4.9.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling:1.4.9.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins.workflow:workflow-scm-step:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:script-security:1.34" level="project" />
+    <orderEntry type="library" name="Maven: org.kohsuke:groovy-sandbox:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:scm-api:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:structs:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci:symbol-annotation:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci:annotation-indexer:1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.cloudbees:groovy-cps:1.20" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.ui:jquery-detached:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.ui:ace-editor:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.cloudbees:diff4j:1.2" level="project" />
   </component>
 </module>

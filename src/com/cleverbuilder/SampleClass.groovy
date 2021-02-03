@@ -1,6 +1,7 @@
 #!/usr/bin/groovy
 package com.cleverbuilder
 
+import com.google.gson.Gson
 import groovy.json.*
 import org.jenkinsci.plugins.workflow.cps.EnvActionImpl
 
@@ -28,6 +29,10 @@ class SampleClass {
 
         def envImpl = (EnvActionImpl)envs
         def environment = envImpl.getOverriddenEnvironment()
+
+        println(environment)
+
+        println(new Gson().toJson(environment))
 
         mt.print JsonOutput.toJson(environment)
 
