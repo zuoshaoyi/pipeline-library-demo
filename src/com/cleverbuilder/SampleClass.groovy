@@ -2,6 +2,7 @@
 package com.cleverbuilder
 
 import groovy.json.*
+import org.jenkinsci.plugins.workflow.cps.EnvActionImpl
 
 class SampleClass {
     String name
@@ -24,6 +25,11 @@ class SampleClass {
 //        def json = JsonOutput.toJson(envs)
 
         mt.print envs.getClass()
+
+        def envImpl = (EnvActionImpl)envs
+        def environment = envImpl.getOverriddenEnvironment()
+
+        mt.print JsonOutput.toJson(environment)
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
