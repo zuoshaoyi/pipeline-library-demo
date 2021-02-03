@@ -21,9 +21,9 @@ class SampleClass {
 
         def envs = mt.env
 
-        def json = JsonOutput.toJson(envs)
+//        def json = JsonOutput.toJson(envs)
 
-        mt.print json
+        mt.print envs.getClass()
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
