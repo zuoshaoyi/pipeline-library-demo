@@ -38,6 +38,9 @@ class SampleClass {
 
         mt.print mt.env.Zuo
 
+        mt.print new Gson().toJson(mt.env)
+
+
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
     }
