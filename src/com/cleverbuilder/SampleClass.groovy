@@ -26,7 +26,7 @@ class SampleClass {
         def envImpl = (EnvActionImpl)mt.env
         def environment = envImpl.getOverriddenEnvironment()
 
-        println(environment)
+        println(environment.get("Zuo"))
 
         println(new Gson().toJson(environment))
 
