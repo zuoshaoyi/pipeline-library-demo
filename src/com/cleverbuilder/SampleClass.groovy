@@ -29,7 +29,7 @@ class SampleClass {
 
         mt.print envImpl.getProperty("Zuo")
 
-        mt.env.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
+        envImpl.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
 
 //        def jdata = JsonOutput.toJson(mt)
 //        return jdata
