@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 import com.cleverbuilder.SampleClass
-import com.zuo.test.JavaTest
+import com.zuo.test.*
 import groovy.json.*
 
 def call(String name = 'human') {
