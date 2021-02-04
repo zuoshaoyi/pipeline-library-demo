@@ -11,9 +11,11 @@ def call(String name = 'human') {
 //
         cc.myPrint(this)
 
-        def ja = new JavaClass()
-        ja.javaPrint()
+//        def ja = new JavaClass()
+//        ja.javaPrint()
 
+        JavaClass instance = Class.forName("com.cleverbuilder.JavaClass").newInstance()
+        instance.javaPrint()
 //        def test = new JavaTest()
 //        test.javaPrint()
 
