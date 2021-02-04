@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pipeline-library-demo.iml" filepath="$PROJECT_DIR$/pipeline-library-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sub/sub.iml" filepath="$PROJECT_DIR$/sub/sub.iml" />
     </modules>
   </component>
 </project>

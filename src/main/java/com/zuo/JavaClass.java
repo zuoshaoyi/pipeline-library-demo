@@ -1,15 +1,9 @@
-package com.zuo.test;
+package com.zuo;
 
-public class JavaTest {
-
-    private String name;
-
-    public JavaTest(String name) {
-        this.name = name;
-    }
+public class JavaClass {
 
     public void javaPrint() {
-        System.out.println("Java 输出" + name);
+        System.out.println("Java 输出");
 
         int res = 0;
         for (int i = 0; i < 10; i++) {
@@ -21,5 +15,9 @@ public class JavaTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(123);
     }
 }

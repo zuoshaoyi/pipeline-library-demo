@@ -163,6 +163,5 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: asm:asm:2.2.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.kohsuke:access-modifier-annotation:1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: jline:jline:0.9.94" level="project" />
-    <orderEntry type="module" module-name="sub" />
   </component>
 </module>

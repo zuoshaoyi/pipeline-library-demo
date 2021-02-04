@@ -11,13 +11,18 @@ def call(String name = 'human') {
 //
         cc.myPrint(this)
 
+        def loader = this.class.getClassLoader()
+
+        while (loader != null) {
+            println(loader.toString())
+            loader = loader.getParent()
+        }
+
 //        def ja = new JavaClass()
 //        ja.javaPrint()
 
-        def instance1 = this.class.classLoader.rootLoader.loadClass("com.cleverbuilder.JavaClass").newInstance()
 
-
-//        def instance = Class.forName("com.cleverbuilder.JavaClass").newInstance()
+//        def instance = Class.forName("com.zuo.JavaClass").newInstance()
 //        instance.javaPrint()
 //        def test = new JavaTest()
 //        test.javaPrint()
