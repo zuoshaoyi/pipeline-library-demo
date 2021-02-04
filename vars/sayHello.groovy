@@ -1,5 +1,7 @@
 #!/usr/bin/groovy
+import com.alibaba.fastjson.JSONObject
 import com.cleverbuilder.*
+import com.google.gson.JsonObject
 
 def call(String name = 'human') {
 
@@ -29,6 +31,10 @@ def call(String name = 'human') {
 
 
         echo "end ..."
+
+        List<String> list = new ArrayList<>()
+        list.add("123")
+        println(JSONObject.toJSONString(list))
     }
 }
 

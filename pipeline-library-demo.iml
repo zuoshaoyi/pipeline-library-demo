@@ -163,5 +163,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: asm:asm:2.2.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.kohsuke:access-modifier-annotation:1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: com.zuo.jenkins:sub:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.75" level="project" />
   </component>
 </module>
